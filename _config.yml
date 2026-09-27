@@ -2,7 +2,7 @@ title: Dependency injection container for PHP
 description: PSR-11 compatible dependency injection container for PHP with automatic dependency bundling
 plugins:
   - jekyll-polyglot
-  - jekyll-alerts-plugin
+  - jekyll-gfm-admonitions
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 remote_theme: just-the-docs/just-the-docs
 languages: ["en", "ru"]
