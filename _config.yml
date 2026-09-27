@@ -13,7 +13,7 @@ exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", 
 localize_redirects: true
 parallel_localization: true
 serial_default_lang: true
-url: https://github.com/agdobrynin/di-container
+url: https://github.com/agdobrynin/docs.di-container
 show_downloads: false
 github:
   owner_url: https://github.com/agdobrynin
