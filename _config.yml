@@ -1,5 +1,7 @@
 title: Dependency injection container for PHP
-description: PSR-11 compatible dependency injection container for PHP with automatic dependency bundling
+description:
+  en: PSR-11 compatible dependency injection container for PHP with automatic dependency bundling
+  ru: PSR-11 совместимый контейнер завосимостей для PHP с автоматическим разрешением зависимостей
 plugins:
   - jekyll-polyglot
   - jekyll-remote-theme # add this line to the plugins list if you already have one
