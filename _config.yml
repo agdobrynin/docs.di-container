@@ -2,9 +2,8 @@ title: Dependency injection container for PHP
 description: PSR-11 compatible dependency injection container for PHP with automatic dependency bundling
 plugins:
   - jekyll-polyglot
-  - jekyll-gfm-admonitions
   - jekyll-remote-theme # add this line to the plugins list if you already have one
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.10.0
 languages: ["en", "ru"]
 permalink: pretty
 lang_from_path: true
@@ -14,10 +13,25 @@ exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", 
 localize_redirects: true
 parallel_localization: true
 serial_default_lang: true
-url: https://github.com/agdobrynin/docs.di-container
+url: https://agdobrynin.github.io
+baseurl: "/docs.di-container"
+
 show_downloads: false
 github:
   owner_url: https://github.com/agdobrynin
   repository_name: kaspi/di-container
   is_project_page: true
   repository_url: https://github.com/agdobrynin/di-container
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: red
+  tip:
+    title: Tip
+    color: green
+  important:
+    title: Important
+    color: yellow
